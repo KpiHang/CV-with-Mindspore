@@ -67,10 +67,10 @@ class UNet(nn.Cell):
         self.up2 = Up(512+256, 256)
         self.up3 = Up(256+128, 128)
         self.up4 = Up(128+64, 64)
-        self.final = nn.Conv2d(64, out_ch, kernel_size=1)  # (64 1 1) out每个像素点是一个概率值，类似2分类
+        self.final = nn.Conv2d(64, out_ch, kernel_size=1)  # (64 1 1) 
         
         # output
-        self.sigmoid = ops.Sigmoid()
+        self.sigmoid = ops.Sigmoid()  # out每个像素点是一个概率值 到0-1之间，类似2分类
 
     def construct(self, x):
         x1 = self.inchannel(x)
