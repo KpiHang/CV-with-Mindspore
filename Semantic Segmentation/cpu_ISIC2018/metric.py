@@ -28,7 +28,6 @@ class MyMetric(nn.Metric):
         IoU = TP / (TP + FP + FN)  交集 / 并集
         """
         intersection = np.sum(y_pred.flatten() * y.flatten())  # 交集，切记像素点只有0 1
-        # print(intersection)  全是0 ？？？？？
         unionset = np.sum(y_pred.flatten() + y.flatten()) - intersection
         single_iou = float(intersection) / float(unionset + self.smooth)
         return single_iou
@@ -71,12 +70,13 @@ class MyMetric(nn.Metric):
             raise ValueError("For 'update', it needs 2 inputs (predicted value, true value), ""but got {}.".format(len(inputs)))
 
         
-        y_pred = Tensor(inputs[0]).asnumpy()  #modelarts,cpu
+        y_pred = Tensor(inputs[0]).asnumpy()  # modelarts,cpu
         # y_pred = np.array(Tensor(inputs[0]))  #cpu
-        
+
         # 像素点 概率值转换为0 or 1
         y_pred[y_pred > 0.5] = float(1)
         y_pred[y_pred <= 0.5] = float(0)
+
         
         y = Tensor(inputs[1]).asnumpy() 
         self._samples_num += y.shape[0]

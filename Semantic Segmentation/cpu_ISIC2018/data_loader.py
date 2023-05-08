@@ -39,7 +39,7 @@ def val_transforms(img_size):  # 训练集 由于数据增广的需要，验证�
     vision.HWC2CHW()
     ]
 
-def create_dataset(img_size=(224, 224), batch_size=16, train_or_val='train', shuffle=True, num_workers=1):
+def create_dataset(img_size=(224, 224), batch_size=8, train_or_val='train', shuffle=True, num_workers=1):
     """
     创建一个数据集，使用ISIC2018Dataset类并对图像和标签应用转换。
 
@@ -75,7 +75,7 @@ def create_dataset(img_size=(224, 224), batch_size=16, train_or_val='train', shu
 # dataset = create_dataset(train_or_val='val')
 # image, label = next(dataset.create_tuple_iterator())
 # print(image, image.shape, image.dtype)
-# print(label.shape, label)
+# print(label.shape, sum(label))
 
 # dataset = create_dataset(train_or_val='val')
 # loder = dataset.create_tuple_iterator()
