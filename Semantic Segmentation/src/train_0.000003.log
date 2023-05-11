@@ -1,0 +1,1200 @@
+train set shape: 100
+val set shape: 20
+Start Training Loop ...
+Epoch: [  1/300], Average Train Loss: [0.6863304377]
+Val loss:0.683371 丨acc: 0.732丨丨iou: 0.000丨丨dice: 0.000丨丨sens: 0.000丨丨spec: 1.000丨
+--------------------------------------------------
+Epoch: [  2/300], Average Train Loss: [0.6411594152]
+Val loss:0.626147 丨acc: 0.757丨丨iou: 0.166丨丨dice: 0.277丨丨sens: 0.181丨丨spec: 0.971丨
+--------------------------------------------------
+Epoch: [  3/300], Average Train Loss: [0.5816984177]
+Val loss:0.581305 丨acc: 0.795丨丨iou: 0.315丨丨dice: 0.473丨丨sens: 0.356丨丨spec: 0.964丨
+--------------------------------------------------
+Epoch: [  4/300], Average Train Loss: [0.5533607602]
+Val loss:0.556764 丨acc: 0.809丨丨iou: 0.377丨丨dice: 0.543丨丨sens: 0.435丨丨spec: 0.960丨
+IoU improved from 0.3766
+--------------------------------------------------
+Epoch: [  5/300], Average Train Loss: [0.5311474800]
+Val loss:0.531977 丨acc: 0.813丨丨iou: 0.410丨丨dice: 0.576丨丨sens: 0.479丨丨spec: 0.948丨
+IoU improved from 0.4102
+--------------------------------------------------
+Epoch: [  6/300], Average Train Loss: [0.5109701753]
+Val loss:0.514593 丨acc: 0.813丨丨iou: 0.392丨丨dice: 0.559丨丨sens: 0.451丨丨spec: 0.956丨
+IoU did not improve from 0.4102
+--------------------------------------------------
+Epoch: [  7/300], Average Train Loss: [0.4933388531]
+Val loss:0.523008 丨acc: 0.817丨丨iou: 0.457丨丨dice: 0.621丨丨sens: 0.584丨丨spec: 0.922丨
+IoU improved from 0.4568
+--------------------------------------------------
+Epoch: [  8/300], Average Train Loss: [0.4775609672]
+Val loss:0.498796 丨acc: 0.811丨丨iou: 0.381丨丨dice: 0.546丨丨sens: 0.429丨丨spec: 0.961丨
+IoU did not improve from 0.4568
+--------------------------------------------------
+Epoch: [  9/300], Average Train Loss: [0.4628894925]
+Val loss:0.490904 丨acc: 0.817丨丨iou: 0.442丨丨dice: 0.607丨丨sens: 0.540丨丨spec: 0.929丨
+IoU did not improve from 0.4568
+--------------------------------------------------
+Epoch: [ 10/300], Average Train Loss: [0.4509046972]
+Val loss:0.481501 丨acc: 0.818丨丨iou: 0.438丨丨dice: 0.606丨丨sens: 0.543丨丨spec: 0.930丨
+IoU did not improve from 0.4568
+--------------------------------------------------
+Epoch: [ 11/300], Average Train Loss: [0.4409682751]
+Val loss:0.477547 丨acc: 0.816丨丨iou: 0.452丨丨dice: 0.620丨丨sens: 0.588丨丨spec: 0.915丨
+IoU did not improve from 0.4568
+--------------------------------------------------
+Epoch: [ 12/300], Average Train Loss: [0.4318968952]
+Val loss:0.465636 丨acc: 0.817丨丨iou: 0.445丨丨dice: 0.613丨丨sens: 0.557丨丨spec: 0.924丨
+IoU did not improve from 0.4568
+--------------------------------------------------
+Epoch: [ 13/300], Average Train Loss: [0.4228606522]
+Val loss:0.461152 丨acc: 0.813丨丨iou: 0.458丨丨dice: 0.623丨丨sens: 0.618丨丨spec: 0.905丨
+IoU improved from 0.4579
+--------------------------------------------------
+Epoch: [ 14/300], Average Train Loss: [0.4173063040]
+Val loss:0.466457 丨acc: 0.814丨丨iou: 0.456丨丨dice: 0.623丨丨sens: 0.605丨丨spec: 0.910丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 15/300], Average Train Loss: [0.4121679068]
+Val loss:0.446244 丨acc: 0.814丨丨iou: 0.445丨丨dice: 0.609丨丨sens: 0.549丨丨spec: 0.922丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 16/300], Average Train Loss: [0.4064816236]
+Val loss:0.441345 丨acc: 0.817丨丨iou: 0.447丨丨dice: 0.615丨丨sens: 0.565丨丨spec: 0.923丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 17/300], Average Train Loss: [0.4021567106]
+Val loss:0.443135 丨acc: 0.818丨丨iou: 0.451丨丨dice: 0.619丨丨sens: 0.579丨丨spec: 0.920丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 18/300], Average Train Loss: [0.3990319967]
+Val loss:0.438297 丨acc: 0.815丨丨iou: 0.435丨丨dice: 0.602丨丨sens: 0.548丨丨spec: 0.934丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 19/300], Average Train Loss: [0.3960121572]
+Val loss:0.433080 丨acc: 0.817丨丨iou: 0.432丨丨dice: 0.598丨丨sens: 0.544丨丨spec: 0.938丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 20/300], Average Train Loss: [0.3959282041]
+Val loss:0.440233 丨acc: 0.818丨丨iou: 0.453丨丨dice: 0.620丨丨sens: 0.585丨丨spec: 0.920丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 21/300], Average Train Loss: [0.3905454576]
+Val loss:0.427295 丨acc: 0.818丨丨iou: 0.449丨丨dice: 0.616丨丨sens: 0.579丨丨spec: 0.923丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 22/300], Average Train Loss: [0.3884145021]
+Val loss:0.428718 丨acc: 0.817丨丨iou: 0.453丨丨dice: 0.622丨丨sens: 0.588丨丨spec: 0.914丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 23/300], Average Train Loss: [0.3870221078]
+Val loss:0.431849 丨acc: 0.817丨丨iou: 0.455丨丨dice: 0.621丨丨sens: 0.587丨丨spec: 0.920丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 24/300], Average Train Loss: [0.3849671483]
+Val loss:0.437628 丨acc: 0.815丨丨iou: 0.457丨丨dice: 0.624丨丨sens: 0.603丨丨spec: 0.911丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 25/300], Average Train Loss: [0.3848854899]
+Val loss:0.423054 丨acc: 0.819丨丨iou: 0.437丨丨dice: 0.604丨丨sens: 0.546丨丨spec: 0.938丨
+IoU did not improve from 0.4579
+--------------------------------------------------
+Epoch: [ 26/300], Average Train Loss: [0.3849739134]
+Val loss:0.438622 丨acc: 0.818丨丨iou: 0.460丨丨dice: 0.625丨丨sens: 0.581丨丨spec: 0.919丨
+IoU improved from 0.4598
+--------------------------------------------------
+Epoch: [ 27/300], Average Train Loss: [0.3827773333]
+Val loss:0.433885 丨acc: 0.813丨丨iou: 0.461丨丨dice: 0.628丨丨sens: 0.610丨丨spec: 0.902丨
+IoU improved from 0.4609
+--------------------------------------------------
+Epoch: [ 28/300], Average Train Loss: [0.3829584122]
+Val loss:0.429103 丨acc: 0.817丨丨iou: 0.446丨丨dice: 0.615丨丨sens: 0.566丨丨spec: 0.926丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 29/300], Average Train Loss: [0.3819892108]
+Val loss:0.437359 丨acc: 0.814丨丨iou: 0.460丨丨dice: 0.627丨丨sens: 0.631丨丨spec: 0.911丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 30/300], Average Train Loss: [0.3801054060]
+Val loss:0.430323 丨acc: 0.816丨丨iou: 0.457丨丨dice: 0.622丨丨sens: 0.595丨丨spec: 0.910丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 31/300], Average Train Loss: [0.3797302246]
+Val loss:0.427984 丨acc: 0.817丨丨iou: 0.455丨丨dice: 0.621丨丨sens: 0.599丨丨spec: 0.922丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 32/300], Average Train Loss: [0.3809845448]
+Val loss:0.431671 丨acc: 0.817丨丨iou: 0.461丨丨dice: 0.628丨丨sens: 0.589丨丨spec: 0.911丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 33/300], Average Train Loss: [0.3805104792]
+Val loss:0.429557 丨acc: 0.817丨丨iou: 0.456丨丨dice: 0.622丨丨sens: 0.605丨丨spec: 0.916丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 34/300], Average Train Loss: [0.3800176382]
+Val loss:0.428295 丨acc: 0.818丨丨iou: 0.452丨丨dice: 0.618丨丨sens: 0.561丨丨spec: 0.922丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 35/300], Average Train Loss: [0.3808220327]
+Val loss:0.426917 丨acc: 0.816丨丨iou: 0.449丨丨dice: 0.616丨丨sens: 0.572丨丨spec: 0.922丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 36/300], Average Train Loss: [0.3793111742]
+Val loss:0.425140 丨acc: 0.817丨丨iou: 0.432丨丨dice: 0.600丨丨sens: 0.542丨丨spec: 0.933丨
+IoU did not improve from 0.4609
+--------------------------------------------------
+Epoch: [ 37/300], Average Train Loss: [0.3770882785]
+Val loss:0.436552 丨acc: 0.813丨丨iou: 0.472丨丨dice: 0.639丨丨sens: 0.656丨丨spec: 0.894丨
+IoU improved from 0.4724
+--------------------------------------------------
+Epoch: [ 38/300], Average Train Loss: [0.3763986528]
+Val loss:0.421369 丨acc: 0.817丨丨iou: 0.451丨丨dice: 0.616丨丨sens: 0.560丨丨spec: 0.928丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 39/300], Average Train Loss: [0.3796541095]
+Val loss:0.423672 丨acc: 0.818丨丨iou: 0.449丨丨dice: 0.616丨丨sens: 0.573丨丨spec: 0.924丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 40/300], Average Train Loss: [0.3800997138]
+Val loss:0.425739 丨acc: 0.816丨丨iou: 0.428丨丨dice: 0.597丨丨sens: 0.533丨丨spec: 0.935丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 41/300], Average Train Loss: [0.3780638874]
+Val loss:0.426081 丨acc: 0.815丨丨iou: 0.432丨丨dice: 0.598丨丨sens: 0.526丨丨spec: 0.936丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 42/300], Average Train Loss: [0.3783233166]
+Val loss:0.416036 丨acc: 0.815丨丨iou: 0.421丨丨dice: 0.587丨丨sens: 0.508丨丨spec: 0.946丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 43/300], Average Train Loss: [0.3782013059]
+Val loss:0.432456 丨acc: 0.816丨丨iou: 0.465丨丨dice: 0.630丨丨sens: 0.610丨丨spec: 0.912丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 44/300], Average Train Loss: [0.3767526150]
+Val loss:0.424698 丨acc: 0.815丨丨iou: 0.430丨丨dice: 0.595丨丨sens: 0.531丨丨spec: 0.939丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 45/300], Average Train Loss: [0.3779079914]
+Val loss:0.428650 丨acc: 0.815丨丨iou: 0.451丨丨dice: 0.618丨丨sens: 0.608丨丨spec: 0.913丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 46/300], Average Train Loss: [0.3755589724]
+Val loss:0.421983 丨acc: 0.816丨丨iou: 0.426丨丨dice: 0.593丨丨sens: 0.512丨丨spec: 0.941丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 47/300], Average Train Loss: [0.3755548894]
+Val loss:0.427629 丨acc: 0.815丨丨iou: 0.438丨丨dice: 0.605丨丨sens: 0.541丨丨spec: 0.926丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 48/300], Average Train Loss: [0.3756859899]
+Val loss:0.428232 丨acc: 0.816丨丨iou: 0.439丨丨dice: 0.606丨丨sens: 0.552丨丨spec: 0.932丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 49/300], Average Train Loss: [0.3742665946]
+Val loss:0.426050 丨acc: 0.816丨丨iou: 0.431丨丨dice: 0.598丨丨sens: 0.533丨丨spec: 0.937丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 50/300], Average Train Loss: [0.3734933138]
+Val loss:0.429421 丨acc: 0.816丨丨iou: 0.450丨丨dice: 0.615丨丨sens: 0.591丨丨spec: 0.920丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 51/300], Average Train Loss: [0.3750010729]
+Val loss:0.432411 丨acc: 0.814丨丨iou: 0.432丨丨dice: 0.600丨丨sens: 0.556丨丨spec: 0.922丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 52/300], Average Train Loss: [0.3740955591]
+Val loss:0.428735 丨acc: 0.816丨丨iou: 0.446丨丨dice: 0.613丨丨sens: 0.583丨丨spec: 0.932丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 53/300], Average Train Loss: [0.3758324683]
+Val loss:0.435246 丨acc: 0.812丨丨iou: 0.457丨丨dice: 0.624丨丨sens: 0.622丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 54/300], Average Train Loss: [0.3763975799]
+Val loss:0.438644 丨acc: 0.814丨丨iou: 0.455丨丨dice: 0.623丨丨sens: 0.605丨丨spec: 0.910丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 55/300], Average Train Loss: [0.3735530078]
+Val loss:0.426256 丨acc: 0.815丨丨iou: 0.427丨丨dice: 0.595丨丨sens: 0.526丨丨spec: 0.935丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 56/300], Average Train Loss: [0.3745325804]
+Val loss:0.426005 丨acc: 0.815丨丨iou: 0.445丨丨dice: 0.614丨丨sens: 0.582丨丨spec: 0.920丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 57/300], Average Train Loss: [0.3714855909]
+Val loss:0.430583 丨acc: 0.817丨丨iou: 0.450丨丨dice: 0.618丨丨sens: 0.589丨丨spec: 0.918丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 58/300], Average Train Loss: [0.3738276660]
+Val loss:0.441047 丨acc: 0.813丨丨iou: 0.451丨丨dice: 0.619丨丨sens: 0.591丨丨spec: 0.911丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 59/300], Average Train Loss: [0.3731337786]
+Val loss:0.429852 丨acc: 0.815丨丨iou: 0.437丨丨dice: 0.605丨丨sens: 0.569丨丨spec: 0.928丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 60/300], Average Train Loss: [0.3721560240]
+Val loss:0.441259 丨acc: 0.814丨丨iou: 0.453丨丨dice: 0.619丨丨sens: 0.584丨丨spec: 0.914丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 61/300], Average Train Loss: [0.3685821295]
+Val loss:0.458248 丨acc: 0.808丨丨iou: 0.432丨丨dice: 0.597丨丨sens: 0.562丨丨spec: 0.912丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 62/300], Average Train Loss: [0.3703205585]
+Val loss:0.429460 丨acc: 0.814丨丨iou: 0.422丨丨dice: 0.590丨丨sens: 0.515丨丨spec: 0.936丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 63/300], Average Train Loss: [0.3665527999]
+Val loss:0.446462 丨acc: 0.809丨丨iou: 0.436丨丨dice: 0.603丨丨sens: 0.581丨丨spec: 0.911丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 64/300], Average Train Loss: [0.3674156070]
+Val loss:0.455936 丨acc: 0.808丨丨iou: 0.460丨丨dice: 0.627丨丨sens: 0.641丨丨spec: 0.884丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 65/300], Average Train Loss: [0.3651261926]
+Val loss:0.437684 丨acc: 0.813丨丨iou: 0.433丨丨dice: 0.602丨丨sens: 0.547丨丨spec: 0.923丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 66/300], Average Train Loss: [0.3688748181]
+Val loss:0.456120 丨acc: 0.810丨丨iou: 0.421丨丨dice: 0.590丨丨sens: 0.539丨丨spec: 0.927丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 67/300], Average Train Loss: [0.3632612228]
+Val loss:0.437180 丨acc: 0.814丨丨iou: 0.467丨丨dice: 0.632丨丨sens: 0.625丨丨spec: 0.905丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 68/300], Average Train Loss: [0.3638629615]
+Val loss:0.431380 丨acc: 0.815丨丨iou: 0.456丨丨dice: 0.620丨丨sens: 0.578丨丨spec: 0.920丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 69/300], Average Train Loss: [0.3647881448]
+Val loss:0.460540 丨acc: 0.806丨丨iou: 0.443丨丨dice: 0.609丨丨sens: 0.606丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 70/300], Average Train Loss: [0.3673064709]
+Val loss:0.444344 丨acc: 0.813丨丨iou: 0.444丨丨dice: 0.612丨丨sens: 0.578丨丨spec: 0.914丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 71/300], Average Train Loss: [0.3623664975]
+Val loss:0.455426 丨acc: 0.807丨丨iou: 0.450丨丨dice: 0.618丨丨sens: 0.625丨丨spec: 0.895丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 72/300], Average Train Loss: [0.3646985292]
+Val loss:0.438158 丨acc: 0.813丨丨iou: 0.437丨丨dice: 0.605丨丨sens: 0.569丨丨spec: 0.924丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 73/300], Average Train Loss: [0.3622497916]
+Val loss:0.442280 丨acc: 0.813丨丨iou: 0.432丨丨dice: 0.600丨丨sens: 0.549丨丨spec: 0.922丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 74/300], Average Train Loss: [0.3620343506]
+Val loss:0.441189 丨acc: 0.814丨丨iou: 0.428丨丨dice: 0.597丨丨sens: 0.534丨丨spec: 0.928丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 75/300], Average Train Loss: [0.3597951829]
+Val loss:0.440318 丨acc: 0.813丨丨iou: 0.451丨丨dice: 0.617丨丨sens: 0.604丨丨spec: 0.908丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 76/300], Average Train Loss: [0.3556508124]
+Val loss:0.446040 丨acc: 0.811丨丨iou: 0.421丨丨dice: 0.590丨丨sens: 0.532丨丨spec: 0.925丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 77/300], Average Train Loss: [0.3583563268]
+Val loss:0.457694 丨acc: 0.803丨丨iou: 0.398丨丨dice: 0.565丨丨sens: 0.504丨丨spec: 0.928丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 78/300], Average Train Loss: [0.3555024266]
+Val loss:0.450095 丨acc: 0.809丨丨iou: 0.417丨丨dice: 0.585丨丨sens: 0.525丨丨spec: 0.925丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 79/300], Average Train Loss: [0.3534629941]
+Val loss:0.458715 丨acc: 0.808丨丨iou: 0.439丨丨dice: 0.607丨丨sens: 0.586丨丨spec: 0.907丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 80/300], Average Train Loss: [0.3509431481]
+Val loss:0.471148 丨acc: 0.805丨丨iou: 0.448丨丨dice: 0.615丨丨sens: 0.620丨丨spec: 0.888丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 81/300], Average Train Loss: [0.3503808677]
+Val loss:0.446467 丨acc: 0.811丨丨iou: 0.430丨丨dice: 0.597丨丨sens: 0.545丨丨spec: 0.923丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 82/300], Average Train Loss: [0.3527899086]
+Val loss:0.451891 丨acc: 0.810丨丨iou: 0.442丨丨dice: 0.608丨丨sens: 0.596丨丨spec: 0.911丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 83/300], Average Train Loss: [0.3475918174]
+Val loss:0.452626 丨acc: 0.805丨丨iou: 0.417丨丨dice: 0.584丨丨sens: 0.551丨丨spec: 0.922丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 84/300], Average Train Loss: [0.3502827585]
+Val loss:0.440102 丨acc: 0.812丨丨iou: 0.431丨丨dice: 0.599丨丨sens: 0.539丨丨spec: 0.926丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 85/300], Average Train Loss: [0.3529928327]
+Val loss:0.458577 丨acc: 0.806丨丨iou: 0.416丨丨dice: 0.584丨丨sens: 0.559丨丨spec: 0.916丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 86/300], Average Train Loss: [0.3473823965]
+Val loss:0.451907 丨acc: 0.807丨丨iou: 0.413丨丨dice: 0.581丨丨sens: 0.521丨丨spec: 0.924丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 87/300], Average Train Loss: [0.3423280418]
+Val loss:0.463674 丨acc: 0.806丨丨iou: 0.430丨丨dice: 0.598丨丨sens: 0.564丨丨spec: 0.912丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 88/300], Average Train Loss: [0.3483878672]
+Val loss:0.461244 丨acc: 0.805丨丨iou: 0.431丨丨dice: 0.598丨丨sens: 0.573丨丨spec: 0.906丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 89/300], Average Train Loss: [0.3427381516]
+Val loss:0.469792 丨acc: 0.804丨丨iou: 0.435丨丨dice: 0.602丨丨sens: 0.573丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 90/300], Average Train Loss: [0.3458087146]
+Val loss:0.481087 丨acc: 0.801丨丨iou: 0.432丨丨dice: 0.599丨丨sens: 0.566丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 91/300], Average Train Loss: [0.3335291743]
+Val loss:0.475969 丨acc: 0.804丨丨iou: 0.443丨丨dice: 0.608丨丨sens: 0.599丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 92/300], Average Train Loss: [0.3340612054]
+Val loss:0.461479 丨acc: 0.807丨丨iou: 0.444丨丨dice: 0.610丨丨sens: 0.591丨丨spec: 0.901丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 93/300], Average Train Loss: [0.3378858864]
+Val loss:0.457845 丨acc: 0.809丨丨iou: 0.426丨丨dice: 0.595丨丨sens: 0.535丨丨spec: 0.919丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 94/300], Average Train Loss: [0.3364211619]
+Val loss:0.479725 丨acc: 0.800丨丨iou: 0.431丨丨dice: 0.597丨丨sens: 0.577丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 95/300], Average Train Loss: [0.3304763138]
+Val loss:0.468031 丨acc: 0.803丨丨iou: 0.432丨丨dice: 0.599丨丨sens: 0.573丨丨spec: 0.899丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 96/300], Average Train Loss: [0.3289604187]
+Val loss:0.473325 丨acc: 0.801丨丨iou: 0.451丨丨dice: 0.618丨丨sens: 0.633丨丨spec: 0.874丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 97/300], Average Train Loss: [0.3286650479]
+Val loss:0.471084 丨acc: 0.804丨丨iou: 0.432丨丨dice: 0.598丨丨sens: 0.577丨丨spec: 0.905丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 98/300], Average Train Loss: [0.3218784332]
+Val loss:0.488532 丨acc: 0.801丨丨iou: 0.403丨丨dice: 0.570丨丨sens: 0.520丨丨spec: 0.921丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [ 99/300], Average Train Loss: [0.3237935603]
+Val loss:0.470339 丨acc: 0.802丨丨iou: 0.441丨丨dice: 0.610丨丨sens: 0.612丨丨spec: 0.886丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [100/300], Average Train Loss: [0.3187270761]
+Val loss:0.457078 丨acc: 0.807丨丨iou: 0.439丨丨dice: 0.606丨丨sens: 0.592丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [101/300], Average Train Loss: [0.3172401786]
+Val loss:0.481272 丨acc: 0.802丨丨iou: 0.435丨丨dice: 0.603丨丨sens: 0.587丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [102/300], Average Train Loss: [0.3210210502]
+Val loss:0.465068 丨acc: 0.804丨丨iou: 0.423丨丨dice: 0.591丨丨sens: 0.540丨丨spec: 0.911丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [103/300], Average Train Loss: [0.3107362688]
+Val loss:0.474042 丨acc: 0.802丨丨iou: 0.431丨丨dice: 0.599丨丨sens: 0.604丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [104/300], Average Train Loss: [0.3060295284]
+Val loss:0.473908 丨acc: 0.803丨丨iou: 0.403丨丨dice: 0.570丨丨sens: 0.513丨丨spec: 0.924丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [105/300], Average Train Loss: [0.3082456887]
+Val loss:0.484486 丨acc: 0.799丨丨iou: 0.431丨丨dice: 0.599丨丨sens: 0.585丨丨spec: 0.885丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [106/300], Average Train Loss: [0.3018071055]
+Val loss:0.513213 丨acc: 0.792丨丨iou: 0.428丨丨dice: 0.595丨丨sens: 0.603丨丨spec: 0.875丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [107/300], Average Train Loss: [0.2980920374]
+Val loss:0.500696 丨acc: 0.800丨丨iou: 0.405丨丨dice: 0.573丨丨sens: 0.520丨丨spec: 0.913丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [108/300], Average Train Loss: [0.3012823761]
+Val loss:0.473531 丨acc: 0.807丨丨iou: 0.411丨丨dice: 0.581丨丨sens: 0.513丨丨spec: 0.927丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [109/300], Average Train Loss: [0.2961089313]
+Val loss:0.512730 丨acc: 0.795丨丨iou: 0.418丨丨dice: 0.583丨丨sens: 0.587丨丨spec: 0.892丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [110/300], Average Train Loss: [0.3011051118]
+Val loss:0.488028 丨acc: 0.797丨丨iou: 0.407丨丨dice: 0.574丨丨sens: 0.533丨丨spec: 0.904丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [111/300], Average Train Loss: [0.2943696678]
+Val loss:0.500110 丨acc: 0.804丨丨iou: 0.414丨丨dice: 0.583丨丨sens: 0.524丨丨spec: 0.916丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [112/300], Average Train Loss: [0.2867808342]
+Val loss:0.504285 丨acc: 0.795丨丨iou: 0.428丨丨dice: 0.596丨丨sens: 0.588丨丨spec: 0.885丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [113/300], Average Train Loss: [0.2815926671]
+Val loss:0.510019 丨acc: 0.788丨丨iou: 0.384丨丨dice: 0.552丨丨sens: 0.512丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [114/300], Average Train Loss: [0.2825929224]
+Val loss:0.519850 丨acc: 0.795丨丨iou: 0.430丨丨dice: 0.599丨丨sens: 0.606丨丨spec: 0.883丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [115/300], Average Train Loss: [0.2809895575]
+Val loss:0.499573 丨acc: 0.795丨丨iou: 0.423丨丨dice: 0.589丨丨sens: 0.580丨丨spec: 0.889丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [116/300], Average Train Loss: [0.2824847102]
+Val loss:0.512162 丨acc: 0.801丨丨iou: 0.411丨丨dice: 0.578丨丨sens: 0.537丨丨spec: 0.911丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [117/300], Average Train Loss: [0.2789724767]
+Val loss:0.504672 丨acc: 0.804丨丨iou: 0.429丨丨dice: 0.596丨丨sens: 0.560丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [118/300], Average Train Loss: [0.2789149582]
+Val loss:0.506946 丨acc: 0.800丨丨iou: 0.423丨丨dice: 0.590丨丨sens: 0.585丨丨spec: 0.895丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [119/300], Average Train Loss: [0.2728006244]
+Val loss:0.545718 丨acc: 0.789丨丨iou: 0.399丨丨dice: 0.565丨丨sens: 0.555丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [120/300], Average Train Loss: [0.2771430910]
+Val loss:0.491927 丨acc: 0.801丨丨iou: 0.406丨丨dice: 0.574丨丨sens: 0.539丨丨spec: 0.913丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [121/300], Average Train Loss: [0.2728149891]
+Val loss:0.517871 丨acc: 0.795丨丨iou: 0.426丨丨dice: 0.594丨丨sens: 0.597丨丨spec: 0.882丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [122/300], Average Train Loss: [0.2685999274]
+Val loss:0.489956 丨acc: 0.803丨丨iou: 0.408丨丨dice: 0.575丨丨sens: 0.518丨丨spec: 0.917丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [123/300], Average Train Loss: [0.2627043724]
+Val loss:0.536610 丨acc: 0.791丨丨iou: 0.420丨丨dice: 0.586丨丨sens: 0.587丨丨spec: 0.880丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [124/300], Average Train Loss: [0.2624257505]
+Val loss:0.521966 丨acc: 0.800丨丨iou: 0.410丨丨dice: 0.577丨丨sens: 0.532丨丨spec: 0.911丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [125/300], Average Train Loss: [0.2622122765]
+Val loss:0.546046 丨acc: 0.789丨丨iou: 0.410丨丨dice: 0.577丨丨sens: 0.556丨丨spec: 0.884丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [126/300], Average Train Loss: [0.2631991506]
+Val loss:0.511241 丨acc: 0.795丨丨iou: 0.416丨丨dice: 0.584丨丨sens: 0.570丨丨spec: 0.894丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [127/300], Average Train Loss: [0.2598133683]
+Val loss:0.522128 丨acc: 0.798丨丨iou: 0.434丨丨dice: 0.602丨丨sens: 0.589丨丨spec: 0.885丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [128/300], Average Train Loss: [0.2593448162]
+Val loss:0.495497 丨acc: 0.796丨丨iou: 0.400丨丨dice: 0.568丨丨sens: 0.526丨丨spec: 0.907丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [129/300], Average Train Loss: [0.2550718188]
+Val loss:0.523525 丨acc: 0.801丨丨iou: 0.435丨丨dice: 0.602丨丨sens: 0.610丨丨spec: 0.894丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [130/300], Average Train Loss: [0.2551161051]
+Val loss:0.518220 丨acc: 0.796丨丨iou: 0.408丨丨dice: 0.576丨丨sens: 0.534丨丨spec: 0.902丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [131/300], Average Train Loss: [0.2530086040]
+Val loss:0.531341 丨acc: 0.797丨丨iou: 0.419丨丨dice: 0.587丨丨sens: 0.575丨丨spec: 0.896丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [132/300], Average Train Loss: [0.2582499981]
+Val loss:0.546814 丨acc: 0.793丨丨iou: 0.398丨丨dice: 0.565丨丨sens: 0.536丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [133/300], Average Train Loss: [0.2504887879]
+Val loss:0.539110 丨acc: 0.798丨丨iou: 0.415丨丨dice: 0.582丨丨sens: 0.551丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [134/300], Average Train Loss: [0.2465475500]
+Val loss:0.531213 丨acc: 0.792丨丨iou: 0.414丨丨dice: 0.583丨丨sens: 0.557丨丨spec: 0.885丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [135/300], Average Train Loss: [0.2426891774]
+Val loss:0.556454 丨acc: 0.793丨丨iou: 0.398丨丨dice: 0.563丨丨sens: 0.522丨丨spec: 0.902丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [136/300], Average Train Loss: [0.2460709810]
+Val loss:0.543872 丨acc: 0.792丨丨iou: 0.407丨丨dice: 0.572丨丨sens: 0.556丨丨spec: 0.892丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [137/300], Average Train Loss: [0.2399975657]
+Val loss:0.538207 丨acc: 0.792丨丨iou: 0.405丨丨dice: 0.571丨丨sens: 0.533丨丨spec: 0.896丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [138/300], Average Train Loss: [0.2438934892]
+Val loss:0.549235 丨acc: 0.796丨丨iou: 0.418丨丨dice: 0.584丨丨sens: 0.561丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [139/300], Average Train Loss: [0.2455967069]
+Val loss:0.546937 丨acc: 0.789丨丨iou: 0.424丨丨dice: 0.594丨丨sens: 0.599丨丨spec: 0.870丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [140/300], Average Train Loss: [0.2395188957]
+Val loss:0.541989 丨acc: 0.794丨丨iou: 0.405丨丨dice: 0.573丨丨sens: 0.543丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [141/300], Average Train Loss: [0.2453493923]
+Val loss:0.545643 丨acc: 0.796丨丨iou: 0.414丨丨dice: 0.582丨丨sens: 0.573丨丨spec: 0.899丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [142/300], Average Train Loss: [0.2435348183]
+Val loss:0.562709 丨acc: 0.795丨丨iou: 0.427丨丨dice: 0.594丨丨sens: 0.597丨丨spec: 0.883丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [143/300], Average Train Loss: [0.2415251583]
+Val loss:0.521507 丨acc: 0.802丨丨iou: 0.436丨丨dice: 0.604丨丨sens: 0.590丨丨spec: 0.891丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [144/300], Average Train Loss: [0.2421709895]
+Val loss:0.538970 丨acc: 0.793丨丨iou: 0.412丨丨dice: 0.582丨丨sens: 0.568丨丨spec: 0.890丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [145/300], Average Train Loss: [0.2361346632]
+Val loss:0.556691 丨acc: 0.793丨丨iou: 0.416丨丨dice: 0.585丨丨sens: 0.567丨丨spec: 0.888丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [146/300], Average Train Loss: [0.2336614728]
+Val loss:0.564855 丨acc: 0.791丨丨iou: 0.422丨丨dice: 0.587丨丨sens: 0.584丨丨spec: 0.877丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [147/300], Average Train Loss: [0.2382794321]
+Val loss:0.542668 丨acc: 0.798丨丨iou: 0.414丨丨dice: 0.582丨丨sens: 0.554丨丨spec: 0.905丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [148/300], Average Train Loss: [0.2382892370]
+Val loss:0.518708 丨acc: 0.803丨丨iou: 0.417丨丨dice: 0.585丨丨sens: 0.539丨丨spec: 0.914丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [149/300], Average Train Loss: [0.2340698987]
+Val loss:0.591343 丨acc: 0.791丨丨iou: 0.387丨丨dice: 0.556丨丨sens: 0.513丨丨spec: 0.905丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [150/300], Average Train Loss: [0.2319391370]
+Val loss:0.550875 丨acc: 0.791丨丨iou: 0.410丨丨dice: 0.579丨丨sens: 0.570丨丨spec: 0.889丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [151/300], Average Train Loss: [0.2301027924]
+Val loss:0.567727 丨acc: 0.790丨丨iou: 0.414丨丨dice: 0.580丨丨sens: 0.557丨丨spec: 0.884丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [152/300], Average Train Loss: [0.2344713062]
+Val loss:0.569952 丨acc: 0.796丨丨iou: 0.409丨丨dice: 0.577丨丨sens: 0.576丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [153/300], Average Train Loss: [0.2268982381]
+Val loss:0.574494 丨acc: 0.796丨丨iou: 0.423丨丨dice: 0.591丨丨sens: 0.581丨丨spec: 0.889丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [154/300], Average Train Loss: [0.2336569428]
+Val loss:0.562592 丨acc: 0.790丨丨iou: 0.414丨丨dice: 0.583丨丨sens: 0.591丨丨spec: 0.879丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [155/300], Average Train Loss: [0.2280235440]
+Val loss:0.560990 丨acc: 0.798丨丨iou: 0.424丨丨dice: 0.590丨丨sens: 0.579丨丨spec: 0.895丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [156/300], Average Train Loss: [0.2323272675]
+Val loss:0.569990 丨acc: 0.794丨丨iou: 0.399丨丨dice: 0.566丨丨sens: 0.550丨丨spec: 0.908丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [157/300], Average Train Loss: [0.2241342515]
+Val loss:0.571930 丨acc: 0.791丨丨iou: 0.419丨丨dice: 0.586丨丨sens: 0.594丨丨spec: 0.882丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [158/300], Average Train Loss: [0.2301801890]
+Val loss:0.555486 丨acc: 0.797丨丨iou: 0.420丨丨dice: 0.588丨丨sens: 0.582丨丨spec: 0.894丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [159/300], Average Train Loss: [0.2271903604]
+Val loss:0.562487 丨acc: 0.798丨丨iou: 0.422丨丨dice: 0.587丨丨sens: 0.573丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [160/300], Average Train Loss: [0.2285975665]
+Val loss:0.578581 丨acc: 0.795丨丨iou: 0.426丨丨dice: 0.594丨丨sens: 0.586丨丨spec: 0.883丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [161/300], Average Train Loss: [0.2302315831]
+Val loss:0.589161 丨acc: 0.793丨丨iou: 0.422丨丨dice: 0.590丨丨sens: 0.594丨丨spec: 0.885丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [162/300], Average Train Loss: [0.2243179530]
+Val loss:0.528259 丨acc: 0.798丨丨iou: 0.421丨丨dice: 0.589丨丨sens: 0.575丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [163/300], Average Train Loss: [0.2268586010]
+Val loss:0.553285 丨acc: 0.789丨丨iou: 0.417丨丨dice: 0.586丨丨sens: 0.592丨丨spec: 0.879丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [164/300], Average Train Loss: [0.2227538228]
+Val loss:0.582341 丨acc: 0.793丨丨iou: 0.424丨丨dice: 0.590丨丨sens: 0.616丨丨spec: 0.879丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [165/300], Average Train Loss: [0.2213010043]
+Val loss:0.560702 丨acc: 0.796丨丨iou: 0.416丨丨dice: 0.583丨丨sens: 0.574丨丨spec: 0.894丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [166/300], Average Train Loss: [0.2203399539]
+Val loss:0.574727 丨acc: 0.799丨丨iou: 0.417丨丨dice: 0.585丨丨sens: 0.572丨丨spec: 0.905丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [167/300], Average Train Loss: [0.2234908491]
+Val loss:0.562575 丨acc: 0.798丨丨iou: 0.410丨丨dice: 0.578丨丨sens: 0.543丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [168/300], Average Train Loss: [0.2220070660]
+Val loss:0.560440 丨acc: 0.802丨丨iou: 0.410丨丨dice: 0.578丨丨sens: 0.525丨丨spec: 0.913丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [169/300], Average Train Loss: [0.2204145193]
+Val loss:0.546383 丨acc: 0.796丨丨iou: 0.393丨丨dice: 0.562丨丨sens: 0.524丨丨spec: 0.913丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [170/300], Average Train Loss: [0.2204762995]
+Val loss:0.552794 丨acc: 0.797丨丨iou: 0.423丨丨dice: 0.592丨丨sens: 0.576丨丨spec: 0.895丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [171/300], Average Train Loss: [0.2258921117]
+Val loss:0.565925 丨acc: 0.792丨丨iou: 0.413丨丨dice: 0.581丨丨sens: 0.568丨丨spec: 0.883丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [172/300], Average Train Loss: [0.2163043618]
+Val loss:0.590038 丨acc: 0.791丨丨iou: 0.406丨丨dice: 0.575丨丨sens: 0.560丨丨spec: 0.891丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [173/300], Average Train Loss: [0.2189991176]
+Val loss:0.548221 丨acc: 0.794丨丨iou: 0.416丨丨dice: 0.584丨丨sens: 0.580丨丨spec: 0.890丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [174/300], Average Train Loss: [0.2135045081]
+Val loss:0.580566 丨acc: 0.797丨丨iou: 0.406丨丨dice: 0.573丨丨sens: 0.532丨丨spec: 0.906丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [175/300], Average Train Loss: [0.2194963247]
+Val loss:0.549387 丨acc: 0.798丨丨iou: 0.421丨丨dice: 0.588丨丨sens: 0.565丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [176/300], Average Train Loss: [0.2156548351]
+Val loss:0.537065 丨acc: 0.796丨丨iou: 0.404丨丨dice: 0.572丨丨sens: 0.536丨丨spec: 0.909丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [177/300], Average Train Loss: [0.2152553350]
+Val loss:0.630613 丨acc: 0.787丨丨iou: 0.429丨丨dice: 0.597丨丨sens: 0.633丨丨spec: 0.861丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [178/300], Average Train Loss: [0.2146496773]
+Val loss:0.570678 丨acc: 0.798丨丨iou: 0.436丨丨dice: 0.604丨丨sens: 0.620丨丨spec: 0.883丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [179/300], Average Train Loss: [0.2159202248]
+Val loss:0.580994 丨acc: 0.792丨丨iou: 0.410丨丨dice: 0.578丨丨sens: 0.571丨丨spec: 0.892丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [180/300], Average Train Loss: [0.2152856439]
+Val loss:0.613224 丨acc: 0.794丨丨iou: 0.411丨丨dice: 0.579丨丨sens: 0.558丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [181/300], Average Train Loss: [0.2144070417]
+Val loss:0.583697 丨acc: 0.798丨丨iou: 0.414丨丨dice: 0.582丨丨sens: 0.543丨丨spec: 0.901丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [182/300], Average Train Loss: [0.2127767056]
+Val loss:0.574992 丨acc: 0.794丨丨iou: 0.412丨丨dice: 0.579丨丨sens: 0.559丨丨spec: 0.894丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [183/300], Average Train Loss: [0.2138760686]
+Val loss:0.591510 丨acc: 0.797丨丨iou: 0.418丨丨dice: 0.586丨丨sens: 0.574丨丨spec: 0.892丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [184/300], Average Train Loss: [0.2096426338]
+Val loss:0.590084 丨acc: 0.794丨丨iou: 0.409丨丨dice: 0.576丨丨sens: 0.565丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [185/300], Average Train Loss: [0.2042525262]
+Val loss:0.639462 丨acc: 0.792丨丨iou: 0.431丨丨dice: 0.598丨丨sens: 0.597丨丨spec: 0.875丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [186/300], Average Train Loss: [0.2140060812]
+Val loss:0.543404 丨acc: 0.798丨丨iou: 0.403丨丨dice: 0.570丨丨sens: 0.520丨丨spec: 0.914丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [187/300], Average Train Loss: [0.2112749815]
+Val loss:0.597662 丨acc: 0.788丨丨iou: 0.415丨丨dice: 0.583丨丨sens: 0.611丨丨spec: 0.877丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [188/300], Average Train Loss: [0.2096714526]
+Val loss:0.585266 丨acc: 0.801丨丨iou: 0.427丨丨dice: 0.595丨丨sens: 0.587丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [189/300], Average Train Loss: [0.2095466554]
+Val loss:0.585527 丨acc: 0.794丨丨iou: 0.423丨丨dice: 0.592丨丨sens: 0.604丨丨spec: 0.886丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [190/300], Average Train Loss: [0.2053612322]
+Val loss:0.562350 丨acc: 0.800丨丨iou: 0.422丨丨dice: 0.590丨丨sens: 0.562丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [191/300], Average Train Loss: [0.2080574483]
+Val loss:0.606455 丨acc: 0.796丨丨iou: 0.430丨丨dice: 0.597丨丨sens: 0.598丨丨spec: 0.884丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [192/300], Average Train Loss: [0.2073967308]
+Val loss:0.612970 丨acc: 0.791丨丨iou: 0.425丨丨dice: 0.593丨丨sens: 0.595丨丨spec: 0.876丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [193/300], Average Train Loss: [0.2071661055]
+Val loss:0.602750 丨acc: 0.798丨丨iou: 0.423丨丨dice: 0.592丨丨sens: 0.586丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [194/300], Average Train Loss: [0.2111301273]
+Val loss:0.595004 丨acc: 0.795丨丨iou: 0.407丨丨dice: 0.577丨丨sens: 0.533丨丨spec: 0.899丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [195/300], Average Train Loss: [0.2013089359]
+Val loss:0.613287 丨acc: 0.797丨丨iou: 0.413丨丨dice: 0.580丨丨sens: 0.549丨丨spec: 0.896丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [196/300], Average Train Loss: [0.2040395886]
+Val loss:0.623758 丨acc: 0.801丨丨iou: 0.423丨丨dice: 0.592丨丨sens: 0.550丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [197/300], Average Train Loss: [0.2122592479]
+Val loss:0.613290 丨acc: 0.802丨丨iou: 0.436丨丨dice: 0.602丨丨sens: 0.589丨丨spec: 0.899丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [198/300], Average Train Loss: [0.2022261769]
+Val loss:0.601262 丨acc: 0.796丨丨iou: 0.430丨丨dice: 0.596丨丨sens: 0.600丨丨spec: 0.890丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [199/300], Average Train Loss: [0.2089039087]
+Val loss:0.583871 丨acc: 0.802丨丨iou: 0.429丨丨dice: 0.598丨丨sens: 0.591丨丨spec: 0.901丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [200/300], Average Train Loss: [0.2058465332]
+Val loss:0.623448 丨acc: 0.795丨丨iou: 0.396丨丨dice: 0.563丨丨sens: 0.522丨丨spec: 0.906丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [201/300], Average Train Loss: [0.2126534581]
+Val loss:0.578396 丨acc: 0.796丨丨iou: 0.407丨丨dice: 0.573丨丨sens: 0.536丨丨spec: 0.904丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [202/300], Average Train Loss: [0.2050548196]
+Val loss:0.647221 丨acc: 0.794丨丨iou: 0.427丨丨dice: 0.593丨丨sens: 0.597丨丨spec: 0.881丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [203/300], Average Train Loss: [0.2085361928]
+Val loss:0.573839 丨acc: 0.798丨丨iou: 0.438丨丨dice: 0.606丨丨sens: 0.620丨丨spec: 0.884丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [204/300], Average Train Loss: [0.2035665959]
+Val loss:0.589945 丨acc: 0.802丨丨iou: 0.429丨丨dice: 0.597丨丨sens: 0.569丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [205/300], Average Train Loss: [0.2020033896]
+Val loss:0.632666 丨acc: 0.793丨丨iou: 0.417丨丨dice: 0.585丨丨sens: 0.572丨丨spec: 0.885丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [206/300], Average Train Loss: [0.1997118443]
+Val loss:0.601844 丨acc: 0.789丨丨iou: 0.416丨丨dice: 0.585丨丨sens: 0.590丨丨spec: 0.875丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [207/300], Average Train Loss: [0.2026361823]
+Val loss:0.585337 丨acc: 0.803丨丨iou: 0.420丨丨dice: 0.586丨丨sens: 0.535丨丨spec: 0.913丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [208/300], Average Train Loss: [0.2051714361]
+Val loss:0.603299 丨acc: 0.799丨丨iou: 0.418丨丨dice: 0.584丨丨sens: 0.550丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [209/300], Average Train Loss: [0.2015064359]
+Val loss:0.613983 丨acc: 0.795丨丨iou: 0.428丨丨dice: 0.594丨丨sens: 0.588丨丨spec: 0.880丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [210/300], Average Train Loss: [0.2069500536]
+Val loss:0.582914 丨acc: 0.799丨丨iou: 0.421丨丨dice: 0.590丨丨sens: 0.583丨丨spec: 0.895丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [211/300], Average Train Loss: [0.2003293782]
+Val loss:0.581160 丨acc: 0.802丨丨iou: 0.430丨丨dice: 0.597丨丨sens: 0.567丨丨spec: 0.896丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [212/300], Average Train Loss: [0.2008628249]
+Val loss:0.599865 丨acc: 0.795丨丨iou: 0.430丨丨dice: 0.597丨丨sens: 0.598丨丨spec: 0.880丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [213/300], Average Train Loss: [0.2032110989]
+Val loss:0.652405 丨acc: 0.797丨丨iou: 0.412丨丨dice: 0.581丨丨sens: 0.567丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [214/300], Average Train Loss: [0.2044204921]
+Val loss:0.648924 丨acc: 0.795丨丨iou: 0.425丨丨dice: 0.590丨丨sens: 0.577丨丨spec: 0.888丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [215/300], Average Train Loss: [0.1966335922]
+Val loss:0.580653 丨acc: 0.796丨丨iou: 0.425丨丨dice: 0.592丨丨sens: 0.622丨丨spec: 0.881丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [216/300], Average Train Loss: [0.2019962519]
+Val loss:0.585529 丨acc: 0.797丨丨iou: 0.418丨丨dice: 0.586丨丨sens: 0.569丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [217/300], Average Train Loss: [0.2012275755]
+Val loss:0.575678 丨acc: 0.800丨丨iou: 0.425丨丨dice: 0.594丨丨sens: 0.572丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [218/300], Average Train Loss: [0.1994927526]
+Val loss:0.621596 丨acc: 0.800丨丨iou: 0.410丨丨dice: 0.579丨丨sens: 0.534丨丨spec: 0.904丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [219/300], Average Train Loss: [0.2047428191]
+Val loss:0.620494 丨acc: 0.799丨丨iou: 0.430丨丨dice: 0.597丨丨sens: 0.590丨丨spec: 0.891丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [220/300], Average Train Loss: [0.1988301724]
+Val loss:0.635871 丨acc: 0.801丨丨iou: 0.431丨丨dice: 0.600丨丨sens: 0.591丨丨spec: 0.894丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [221/300], Average Train Loss: [0.1994894147]
+Val loss:0.623221 丨acc: 0.799丨丨iou: 0.421丨丨dice: 0.588丨丨sens: 0.570丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [222/300], Average Train Loss: [0.1910323650]
+Val loss:0.615475 丨acc: 0.803丨丨iou: 0.426丨丨dice: 0.593丨丨sens: 0.567丨丨spec: 0.902丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [223/300], Average Train Loss: [0.1977138370]
+Val loss:0.626300 丨acc: 0.799丨丨iou: 0.428丨丨dice: 0.595丨丨sens: 0.579丨丨spec: 0.891丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [224/300], Average Train Loss: [0.2014718950]
+Val loss:0.585366 丨acc: 0.796丨丨iou: 0.419丨丨dice: 0.587丨丨sens: 0.557丨丨spec: 0.891丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [225/300], Average Train Loss: [0.1967750788]
+Val loss:0.601578 丨acc: 0.801丨丨iou: 0.411丨丨dice: 0.577丨丨sens: 0.536丨丨spec: 0.907丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [226/300], Average Train Loss: [0.1999431998]
+Val loss:0.597519 丨acc: 0.806丨丨iou: 0.435丨丨dice: 0.602丨丨sens: 0.560丨丨spec: 0.904丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [227/300], Average Train Loss: [0.1939697862]
+Val loss:0.589661 丨acc: 0.799丨丨iou: 0.430丨丨dice: 0.597丨丨sens: 0.585丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [228/300], Average Train Loss: [0.1989019513]
+Val loss:0.604161 丨acc: 0.800丨丨iou: 0.417丨丨dice: 0.586丨丨sens: 0.580丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [229/300], Average Train Loss: [0.1936409175]
+Val loss:0.625930 丨acc: 0.800丨丨iou: 0.435丨丨dice: 0.601丨丨sens: 0.604丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [230/300], Average Train Loss: [0.1943231523]
+Val loss:0.617675 丨acc: 0.796丨丨iou: 0.421丨丨dice: 0.590丨丨sens: 0.561丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [231/300], Average Train Loss: [0.1982319057]
+Val loss:0.557965 丨acc: 0.794丨丨iou: 0.420丨丨dice: 0.588丨丨sens: 0.565丨丨spec: 0.888丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [232/300], Average Train Loss: [0.1944774687]
+Val loss:0.595912 丨acc: 0.801丨丨iou: 0.416丨丨dice: 0.583丨丨sens: 0.544丨丨spec: 0.908丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [233/300], Average Train Loss: [0.1901131123]
+Val loss:0.620313 丨acc: 0.790丨丨iou: 0.419丨丨dice: 0.585丨丨sens: 0.593丨丨spec: 0.876丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [234/300], Average Train Loss: [0.1926600337]
+Val loss:0.636138 丨acc: 0.796丨丨iou: 0.411丨丨dice: 0.580丨丨sens: 0.568丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [235/300], Average Train Loss: [0.1966576129]
+Val loss:0.621313 丨acc: 0.796丨丨iou: 0.412丨丨dice: 0.579丨丨sens: 0.540丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [236/300], Average Train Loss: [0.1935796738]
+Val loss:0.639647 丨acc: 0.793丨丨iou: 0.427丨丨dice: 0.596丨丨sens: 0.608丨丨spec: 0.879丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [237/300], Average Train Loss: [0.1946399063]
+Val loss:0.622142 丨acc: 0.800丨丨iou: 0.420丨丨dice: 0.588丨丨sens: 0.567丨丨spec: 0.904丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [238/300], Average Train Loss: [0.1878925562]
+Val loss:0.600301 丨acc: 0.798丨丨iou: 0.421丨丨dice: 0.587丨丨sens: 0.556丨丨spec: 0.896丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [239/300], Average Train Loss: [0.1975209266]
+Val loss:0.651828 丨acc: 0.797丨丨iou: 0.424丨丨dice: 0.592丨丨sens: 0.587丨丨spec: 0.889丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [240/300], Average Train Loss: [0.1940592825]
+Val loss:0.649310 丨acc: 0.797丨丨iou: 0.433丨丨dice: 0.601丨丨sens: 0.596丨丨spec: 0.884丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [241/300], Average Train Loss: [0.1916088611]
+Val loss:0.605919 丨acc: 0.800丨丨iou: 0.422丨丨dice: 0.590丨丨sens: 0.564丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [242/300], Average Train Loss: [0.1946395040]
+Val loss:0.599220 丨acc: 0.796丨丨iou: 0.420丨丨dice: 0.588丨丨sens: 0.577丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [243/300], Average Train Loss: [0.1933306456]
+Val loss:0.644714 丨acc: 0.799丨丨iou: 0.417丨丨dice: 0.584丨丨sens: 0.553丨丨spec: 0.901丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [244/300], Average Train Loss: [0.1926517338]
+Val loss:0.580723 丨acc: 0.803丨丨iou: 0.428丨丨dice: 0.596丨丨sens: 0.573丨丨spec: 0.901丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [245/300], Average Train Loss: [0.1939139813]
+Val loss:0.624361 丨acc: 0.793丨丨iou: 0.417丨丨dice: 0.585丨丨sens: 0.583丨丨spec: 0.889丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [246/300], Average Train Loss: [0.1913059652]
+Val loss:0.612795 丨acc: 0.793丨丨iou: 0.406丨丨dice: 0.570丨丨sens: 0.543丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [247/300], Average Train Loss: [0.1940626353]
+Val loss:0.697273 丨acc: 0.793丨丨iou: 0.413丨丨dice: 0.581丨丨sens: 0.602丨丨spec: 0.891丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [248/300], Average Train Loss: [0.1863945723]
+Val loss:0.580750 丨acc: 0.798丨丨iou: 0.420丨丨dice: 0.585丨丨sens: 0.575丨丨spec: 0.892丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [249/300], Average Train Loss: [0.1909515709]
+Val loss:0.686680 丨acc: 0.789丨丨iou: 0.405丨丨dice: 0.572丨丨sens: 0.556丨丨spec: 0.886丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [250/300], Average Train Loss: [0.1916247606]
+Val loss:0.639635 丨acc: 0.791丨丨iou: 0.403丨丨dice: 0.572丨丨sens: 0.533丨丨spec: 0.891丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [251/300], Average Train Loss: [0.1881260276]
+Val loss:0.599807 丨acc: 0.795丨丨iou: 0.408丨丨dice: 0.577丨丨sens: 0.547丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [252/300], Average Train Loss: [0.1893875748]
+Val loss:0.643782 丨acc: 0.797丨丨iou: 0.416丨丨dice: 0.582丨丨sens: 0.546丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [253/300], Average Train Loss: [0.1848758161]
+Val loss:0.645229 丨acc: 0.796丨丨iou: 0.420丨丨dice: 0.587丨丨sens: 0.576丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [254/300], Average Train Loss: [0.1873200089]
+Val loss:0.623862 丨acc: 0.800丨丨iou: 0.415丨丨dice: 0.583丨丨sens: 0.556丨丨spec: 0.908丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [255/300], Average Train Loss: [0.1884042323]
+Val loss:0.682688 丨acc: 0.795丨丨iou: 0.435丨丨dice: 0.601丨丨sens: 0.610丨丨spec: 0.875丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [256/300], Average Train Loss: [0.1924509108]
+Val loss:0.635268 丨acc: 0.795丨丨iou: 0.418丨丨dice: 0.586丨丨sens: 0.596丨丨spec: 0.888丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [257/300], Average Train Loss: [0.1891047806]
+Val loss:0.674527 丨acc: 0.793丨丨iou: 0.412丨丨dice: 0.579丨丨sens: 0.581丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [258/300], Average Train Loss: [0.1863053292]
+Val loss:0.606811 丨acc: 0.789丨丨iou: 0.412丨丨dice: 0.582丨丨sens: 0.603丨丨spec: 0.887丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [259/300], Average Train Loss: [0.1859600991]
+Val loss:0.631167 丨acc: 0.801丨丨iou: 0.427丨丨dice: 0.593丨丨sens: 0.590丨丨spec: 0.899丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [260/300], Average Train Loss: [0.1854771823]
+Val loss:0.644511 丨acc: 0.793丨丨iou: 0.415丨丨dice: 0.579丨丨sens: 0.564丨丨spec: 0.894丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [261/300], Average Train Loss: [0.1882997453]
+Val loss:0.588334 丨acc: 0.798丨丨iou: 0.418丨丨dice: 0.585丨丨sens: 0.566丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [262/300], Average Train Loss: [0.1826702505]
+Val loss:0.607334 丨acc: 0.795丨丨iou: 0.419丨丨dice: 0.588丨丨sens: 0.569丨丨spec: 0.890丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [263/300], Average Train Loss: [0.1900127530]
+Val loss:0.635717 丨acc: 0.796丨丨iou: 0.420丨丨dice: 0.588丨丨sens: 0.563丨丨spec: 0.895丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [264/300], Average Train Loss: [0.1943701953]
+Val loss:0.631952 丨acc: 0.796丨丨iou: 0.403丨丨dice: 0.568丨丨sens: 0.518丨丨spec: 0.908丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [265/300], Average Train Loss: [0.1841303110]
+Val loss:0.609461 丨acc: 0.799丨丨iou: 0.419丨丨dice: 0.587丨丨sens: 0.562丨丨spec: 0.904丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [266/300], Average Train Loss: [0.1857826859]
+Val loss:0.609981 丨acc: 0.796丨丨iou: 0.412丨丨dice: 0.579丨丨sens: 0.559丨丨spec: 0.898丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [267/300], Average Train Loss: [0.1833011806]
+Val loss:0.627787 丨acc: 0.797丨丨iou: 0.410丨丨dice: 0.578丨丨sens: 0.550丨丨spec: 0.907丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [268/300], Average Train Loss: [0.1855510473]
+Val loss:0.637593 丨acc: 0.798丨丨iou: 0.416丨丨dice: 0.585丨丨sens: 0.576丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [269/300], Average Train Loss: [0.1915530562]
+Val loss:0.640005 丨acc: 0.799丨丨iou: 0.430丨丨dice: 0.599丨丨sens: 0.594丨丨spec: 0.890丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [270/300], Average Train Loss: [0.1831782758]
+Val loss:0.648725 丨acc: 0.801丨丨iou: 0.422丨丨dice: 0.591丨丨sens: 0.572丨丨spec: 0.902丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [271/300], Average Train Loss: [0.1849640012]
+Val loss:0.635291 丨acc: 0.798丨丨iou: 0.429丨丨dice: 0.595丨丨sens: 0.587丨丨spec: 0.888丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [272/300], Average Train Loss: [0.1839128733]
+Val loss:0.638594 丨acc: 0.799丨丨iou: 0.421丨丨dice: 0.588丨丨sens: 0.566丨丨spec: 0.899丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [273/300], Average Train Loss: [0.1780483425]
+Val loss:0.607518 丨acc: 0.799丨丨iou: 0.420丨丨dice: 0.588丨丨sens: 0.555丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [274/300], Average Train Loss: [0.1852540523]
+Val loss:0.607818 丨acc: 0.796丨丨iou: 0.413丨丨dice: 0.580丨丨sens: 0.547丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [275/300], Average Train Loss: [0.1772539467]
+Val loss:0.646112 丨acc: 0.792丨丨iou: 0.413丨丨dice: 0.582丨丨sens: 0.590丨丨spec: 0.890丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [276/300], Average Train Loss: [0.1909724176]
+Val loss:0.633062 丨acc: 0.796丨丨iou: 0.410丨丨dice: 0.577丨丨sens: 0.554丨丨spec: 0.897丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [277/300], Average Train Loss: [0.1844370514]
+Val loss:0.571416 丨acc: 0.798丨丨iou: 0.410丨丨dice: 0.578丨丨sens: 0.567丨丨spec: 0.909丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [278/300], Average Train Loss: [0.1835807562]
+Val loss:0.644047 丨acc: 0.793丨丨iou: 0.419丨丨dice: 0.588丨丨sens: 0.587丨丨spec: 0.882丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [279/300], Average Train Loss: [0.1884112209]
+Val loss:0.639909 丨acc: 0.791丨丨iou: 0.405丨丨dice: 0.571丨丨sens: 0.564丨丨spec: 0.891丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [280/300], Average Train Loss: [0.1837139130]
+Val loss:0.612278 丨acc: 0.800丨丨iou: 0.427丨丨dice: 0.594丨丨sens: 0.584丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [281/300], Average Train Loss: [0.1851897389]
+Val loss:0.622504 丨acc: 0.802丨丨iou: 0.410丨丨dice: 0.579丨丨sens: 0.556丨丨spec: 0.920丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [282/300], Average Train Loss: [0.1821890473]
+Val loss:0.657935 丨acc: 0.790丨丨iou: 0.397丨丨dice: 0.565丨丨sens: 0.542丨丨spec: 0.899丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [283/300], Average Train Loss: [0.1808312982]
+Val loss:0.668244 丨acc: 0.798丨丨iou: 0.440丨丨dice: 0.608丨丨sens: 0.612丨丨spec: 0.879丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [284/300], Average Train Loss: [0.1840654761]
+Val loss:0.673041 丨acc: 0.801丨丨iou: 0.436丨丨dice: 0.602丨丨sens: 0.595丨丨spec: 0.892丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [285/300], Average Train Loss: [0.1845054626]
+Val loss:0.638520 丨acc: 0.798丨丨iou: 0.436丨丨dice: 0.605丨丨sens: 0.629丨丨spec: 0.881丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [286/300], Average Train Loss: [0.1785549521]
+Val loss:0.630503 丨acc: 0.795丨丨iou: 0.412丨丨dice: 0.581丨丨sens: 0.559丨丨spec: 0.900丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [287/300], Average Train Loss: [0.1838586032]
+Val loss:0.553827 丨acc: 0.802丨丨iou: 0.414丨丨dice: 0.581丨丨sens: 0.554丨丨spec: 0.915丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [288/300], Average Train Loss: [0.1799769253]
+Val loss:0.644163 丨acc: 0.797丨丨iou: 0.411丨丨dice: 0.578丨丨sens: 0.556丨丨spec: 0.901丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [289/300], Average Train Loss: [0.1806179434]
+Val loss:0.653602 丨acc: 0.801丨丨iou: 0.422丨丨dice: 0.588丨丨sens: 0.545丨丨spec: 0.907丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [290/300], Average Train Loss: [0.1830237806]
+Val loss:0.672364 丨acc: 0.803丨丨iou: 0.425丨丨dice: 0.593丨丨sens: 0.569丨丨spec: 0.904丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [291/300], Average Train Loss: [0.1777040809]
+Val loss:0.610997 丨acc: 0.804丨丨iou: 0.430丨丨dice: 0.595丨丨sens: 0.558丨丨spec: 0.906丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [292/300], Average Train Loss: [0.1792984903]
+Val loss:0.664934 丨acc: 0.799丨丨iou: 0.432丨丨dice: 0.600丨丨sens: 0.589丨丨spec: 0.886丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [293/300], Average Train Loss: [0.1854534745]
+Val loss:0.662260 丨acc: 0.798丨丨iou: 0.422丨丨dice: 0.587丨丨sens: 0.562丨丨spec: 0.896丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [294/300], Average Train Loss: [0.1763879359]
+Val loss:0.626987 丨acc: 0.799丨丨iou: 0.421丨丨dice: 0.588丨丨sens: 0.572丨丨spec: 0.903丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [295/300], Average Train Loss: [0.1816553175]
+Val loss:0.643773 丨acc: 0.796丨丨iou: 0.432丨丨dice: 0.601丨丨sens: 0.599丨丨spec: 0.882丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [296/300], Average Train Loss: [0.1799936444]
+Val loss:0.627018 丨acc: 0.806丨丨iou: 0.431丨丨dice: 0.600丨丨sens: 0.566丨丨spec: 0.907丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [297/300], Average Train Loss: [0.1792351305]
+Val loss:0.706284 丨acc: 0.793丨丨iou: 0.434丨丨dice: 0.601丨丨sens: 0.598丨丨spec: 0.874丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [298/300], Average Train Loss: [0.1792259812]
+Val loss:0.685091 丨acc: 0.796丨丨iou: 0.418丨丨dice: 0.586丨丨sens: 0.582丨丨spec: 0.893丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [299/300], Average Train Loss: [0.1802019626]
+Val loss:0.652607 丨acc: 0.798丨丨iou: 0.420丨丨dice: 0.588丨丨sens: 0.566丨丨spec: 0.895丨
+IoU did not improve from 0.4724
+--------------------------------------------------
+Epoch: [300/300], Average Train Loss: [0.1774984896]
+Val loss:0.626189 丨acc: 0.796丨丨iou: 0.418丨丨dice: 0.586丨丨sens: 0.583丨丨spec: 0.895丨
+IoU did not improve from 0.4724
+--------------------------------------------------

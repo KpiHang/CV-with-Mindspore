@@ -2,6 +2,7 @@ CV Tasks with mindspore
 
 ## Sementic Segment
 
+本任务只用来联系，效果比较一般，仅供参考。
 
 使用Unet模型，
 数据集：皮肤病灶图像ISIC2018分割任务数据集 [ISIC Challenge (isic-archive.com)](https://challenge.isic-archive.com/landing/2018/45/)

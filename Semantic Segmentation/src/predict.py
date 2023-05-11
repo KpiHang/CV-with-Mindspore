@@ -1,41 +1,171 @@
+import os
 import mindspore
+import ml_collections
 import numpy as np
-from mindspore.dataset import vision
-from mindspore.dataset.vision import Inter
 from model_unet import UNet
-from PIL import Image
-import cv2
+from data_loader import create_dataset
+import mindspore.context as context
+from mindspore import ops
+from mindspore import nn
+from metric import MyMetric
 
-# 加载模型和参数
-net = UNet(3, 1)
-mindspore.load_checkpoint("../data/best_UNet.ckpt", net=net)
 
-# 读取待预测图片
-# img_path = '../data/ISIC2018_Task1/xxxL/val_origin/images/ISIC_0012643.jpg'
-img_path = '../data/ISIC2018_Task1/huaweicloud/train/images/ISIC_0000001.jpg'
-img = Image.open(img_path).convert('RGB')
+def train_model(net, train_loader, criterion, optimizer, num_epochs, device):
+    # https://www.mindspore.cn/docs/zh-CN/r1.10/api_python/mindspore/mindspore.set_context.html?highlight=context#mindspore.set_context
+    context.set_context(mode=mindspore.GRAPH_MODE, device_target=device)
 
-# 处理图片
-def val_transforms(img_size):
-    return [
-        vision.Resize(img_size, interpolation=Inter.NEAREST),
-        vision.Rescale(1./255., 0.0),  # 归一化
-        vision.HWC2CHW()
-    ]
-f_list = val_transforms((224, 224))
+    # 定义前向传播
+    def forward_fn(inputs, targets):
+        logits = net(inputs)
+        loss = criterion(logits, targets)
+        return loss
 
-for f in f_list:
-    img = f(img)
+    grad_fn = ops.value_and_grad(forward_fn, None, weights=net.trainable_params())
 
-input = mindspore.Tensor(np.expand_dims(img, axis=0), mindspore.float32)
+    # 参数更新
+    def train_step(inputs, targets):
+        loss, grads = grad_fn(inputs, targets)
+        optimizer(grads)
+        return loss
 
-# 预测
-pred = net(input)
-pred[pred > 0.5] = float(1)
-pred[pred <= 0.5] = float(0)
+    # 模型训练
+    def train(epoch):
+        """模型训练"""
+        losses = []
+        net.set_train(True)
+        for i, (images, labels) in enumerate(train_loader):
+            loss = train_step(images, labels)
+            # if i % 100 == 0 or i == step_size_train - 1:
+            # print(
+            #     "Epoch: [%3d/%3d], Steps: [%3d/%3d], Train Loss: [%5.10f]"
+            #     % (
+            #         epoch + 1,
+            #         num_epochs,
+            #         i + 1,
+            #         train_loader.dataset.get_dataset_size(),
+            #         loss,
+            #     )
+            # )
+            losses.append(loss)
+        return sum(losses) / len(losses)
 
-preds = np.squeeze(pred, axis=0)
-img = np.transpose(preds,(1, 2, 0))
+    # 验证集评估
+    val_dataset = create_dataset(
+        img_size=cfg.img_size,
+        batch_size=cfg.val_batch_size,
+        train_or_val="val",
+        shuffle=True,
+    )
+    val_size = val_dataset.get_dataset_size()
 
-# 显示
-cv2.imwrite('./predict.png', img.asnumpy()*255.)
+    def val(metrics=None):
+        net.set_train(False)
+
+        val_loader = val_dataset.create_tuple_iterator(num_epochs=cfg.val_epochs)
+
+        val_loss = 0
+        val_preds = []
+        val_label = []
+        for images, labels in val_loader:
+            y_pred = net(images)
+            val_loss += criterion(y_pred, labels).asnumpy()
+            val_preds.append(y_pred.asnumpy())
+            val_label.append(labels.asnumpy())
+
+        val_loss /= val_size
+        metric = MyMetric(metrics, smooth=1e-5)
+        metric.clear
+        metric.update(val_preds, val_label)
+        res = metric.eval()
+
+        print(
+            f"Val loss:{val_loss:>4f}",
+            "丨acc: %.3f丨丨iou: %.3f丨丨dice: %.3f丨丨sens: %.3f丨丨spec: %.3f丨"
+            % (res[0], res[1], res[2], res[3], res[4]),
+        )
+
+        iou_score = res[1]
+        spec_score = res[4]
+        return iou_score, spec_score
+
+    # 开始训练
+    print("Start Training Loop ...")
+    best_iou = 0
+    ckpt_path = "best_UNet.ckpt"
+    for epoch in range(num_epochs):
+        curr_loss = train(epoch)
+        # print("-" * 50)
+        print(
+            "Epoch: [%3d/%3d], Average Train Loss: [%5.10f]"
+            % (epoch + 1, num_epochs, curr_loss)
+        )
+        if curr_loss < 0.2:
+            mindspore.save_checkpoint(net, ckpt_path)
+        metrics_name = ["acc", "iou", "dice", "sens", "spec"]
+        iou_score, spec_score = val(metrics_name)
+        if epoch > 2 and spec_score > 0.2:
+            if iou_score > best_iou:
+                best_iou = iou_score
+                print("IoU improved from %0.4f" % best_iou)
+                mindspore.save_checkpoint(net, ckpt_path)
+            else:
+                print("IoU did not improve from %0.4f" % best_iou)
+        print("-" * 50)
+
+
+def get_config():
+    """configuration"""
+    config = ml_collections.ConfigDict()
+    # net
+    config.in_channel = 3
+    config.n_classes = 1
+
+    # dataset
+    config.train_epochs = 300
+    # config.train_data_path = "src/datasets/ISBI/train/"
+    # config.val_data_path = "src/datasets/ISBI/val/"
+    config.img_size = (224, 224)
+    config.train_batch_size = 4
+
+    config.val_epochs = 1
+    config.val_batch_size = 5
+
+    # train
+    config.gpu_num = "1,2"
+    config.lr = 0.000003
+    config.device = "GPU"
+    return config
+
+
+if __name__ == "__main__":
+    cfg = get_config()
+    os.environ["CUDA_VISIBLE_DEVICES"] = cfg.gpu_num
+
+    net = UNet(in_ch=cfg.in_channel, out_ch=cfg.n_classes)
+    train_dataset = create_dataset(
+        img_size=cfg.img_size,
+        batch_size=cfg.train_batch_size,
+        train_or_val="train",
+        shuffle=True,
+    )
+    train_loader = train_dataset.create_tuple_iterator(
+        num_epochs=cfg.train_epochs
+    )  # epochs 要遍历整个数据集几遍。
+    # 优化器 https://mindspore.cn/docs/zh-CN/r1.10/api_python/nn/mindspore.nn.Adam.html#mindspore.nn.Adam
+    # optimizer = nn.SGD(net.trainable_params(), learning_rate=cfg.lr)
+    # 定义RMSprop算法
+    optimizer = nn.RMSProp(
+        net.trainable_params(), learning_rate=cfg.lr, weight_decay=1e-8, momentum=0.9
+    )
+    # optimizer = nn.Adam(net.trainable_params(), learning_rate=cfg.lr)
+    # 定义Loss
+    criterion = nn.BCEWithLogitsLoss()
+
+    train_model(
+        net,
+        train_loader,
+        criterion,
+        optimizer,
+        cfg.train_epochs,
+        device=cfg.device,
+    )
