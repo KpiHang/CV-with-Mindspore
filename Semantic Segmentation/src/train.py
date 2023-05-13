@@ -1,6 +1,7 @@
 import os
 import mindspore
 import ml_collections
+import numpy as np
 from model_unet import UNet
 from data_loader import create_dataset
 import mindspore.context as context
@@ -19,7 +20,7 @@ def train_model(net, train_loader, criterion, optimizer, num_epochs, device):
         loss = criterion(logits, targets)
         return loss
 
-    grad_fn = ops.value_and_grad(forward_fn, None, optimizer.parameters)
+    grad_fn = ops.value_and_grad(forward_fn, None, weights=net.trainable_params())
 
     # 参数更新
     def train_step(inputs, targets):
@@ -35,16 +36,16 @@ def train_model(net, train_loader, criterion, optimizer, num_epochs, device):
         for i, (images, labels) in enumerate(train_loader):
             loss = train_step(images, labels)
             # if i % 100 == 0 or i == step_size_train - 1:
-            print(
-                "Epoch: [%3d/%3d], Steps: [%3d/%3d], Train Loss: [%5.10f]"
-                % (
-                    epoch + 1,
-                    num_epochs,
-                    i + 1,
-                    train_loader.dataset.get_dataset_size(),
-                    loss,
-                )
-            )
+            # print(
+            #     "Epoch: [%3d/%3d], Steps: [%3d/%3d], Train Loss: [%5.10f]"
+            #     % (
+            #         epoch + 1,
+            #         num_epochs,
+            #         i + 1,
+            #         train_loader.dataset.get_dataset_size(),
+            #         loss,
+            #     )
+            # )
             losses.append(loss)
         return sum(losses) / len(losses)
 
@@ -93,16 +94,19 @@ def train_model(net, train_loader, criterion, optimizer, num_epochs, device):
     ckpt_path = "best_UNet.ckpt"
     for epoch in range(num_epochs):
         curr_loss = train(epoch)
-        print("-" * 50)
+        # print("-" * 50)
         print(
             "Epoch: [%3d/%3d], Average Train Loss: [%5.10f]"
             % (epoch + 1, num_epochs, curr_loss)
         )
+        if curr_loss < 0.2:
+            mindspore.save_checkpoint(net, ckpt_path)
         metrics_name = ["acc", "iou", "dice", "sens", "spec"]
         iou_score, spec_score = val(metrics_name)
         if epoch > 2 and spec_score > 0.2:
             if iou_score > best_iou:
                 best_iou = iou_score
+                print("IoU improved from %0.4f" % best_iou)
                 mindspore.save_checkpoint(net, ckpt_path)
             else:
                 print("IoU did not improve from %0.4f" % best_iou)
@@ -117,25 +121,25 @@ def get_config():
     config.n_classes = 1
 
     # dataset
-    config.train_epochs = 200
+    config.train_epochs = 300
     # config.train_data_path = "src/datasets/ISBI/train/"
     # config.val_data_path = "src/datasets/ISBI/val/"
     config.img_size = (224, 224)
-    config.train_batch_size = 10
+    config.train_batch_size = 4
 
     config.val_epochs = 1
     config.val_batch_size = 5
 
     # train
-    config.gpu_num = 1
-    config.lr = 0.001
+    config.gpu_num = "1,2"
+    config.lr = 0.000003
     config.device = "GPU"
     return config
 
 
 if __name__ == "__main__":
     cfg = get_config()
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(cfg.gpu_num)
+    os.environ["CUDA_VISIBLE_DEVICES"] = cfg.gpu_num
 
     net = UNet(in_ch=cfg.in_channel, out_ch=cfg.n_classes)
     train_dataset = create_dataset(
@@ -148,7 +152,12 @@ if __name__ == "__main__":
         num_epochs=cfg.train_epochs
     )  # epochs 要遍历整个数据集几遍。
     # 优化器 https://mindspore.cn/docs/zh-CN/r1.10/api_python/nn/mindspore.nn.Adam.html#mindspore.nn.Adam
-    optimizer = nn.SGD(net.trainable_params(), learning_rate=cfg.lr)
+    # optimizer = nn.SGD(net.trainable_params(), learning_rate=cfg.lr)
+    # 定义RMSprop算法
+    optimizer = nn.RMSProp(
+        net.trainable_params(), learning_rate=cfg.lr, weight_decay=1e-8, momentum=0.9
+    )
+    # optimizer = nn.Adam(net.trainable_params(), learning_rate=cfg.lr)
     # 定义Loss
     criterion = nn.BCEWithLogitsLoss()
 
