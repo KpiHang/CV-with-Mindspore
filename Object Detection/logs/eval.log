@@ -1,0 +1,66 @@
+
+eval.py config:
+ Namespace(device_target='CPU', enable_profiling=False, data_root='./cocodataset', only_create_dataset=False, run_distribute=False, do_train=True, do_eval=False, dataset='coco', pre_trained='./checkpoint/maskrcnn_coco2017_acc32.9.ckpt', device_id=0, device_num=1, rank_id=0, ann_file='./cocodataset/annotations/instances_val2017.json', checkpoint_path='./checkpoint/maskrcnn_coco2017_acc32.9.ckpt', batch_size_export=1, ckpt_file='./checkpoint/maskrcnn_gpu_coco.ckpt', file_name='./checkpoint/maskrcnn_coco2017_acc32.9.ckpt', img_path='./cocodataset/val2017', ann_path='./cocodataset/annotations/instances_val2017.json', result_path='./results', img_width=1280, img_height=768, keep_ratio=True, flip_ratio=0.5, expand_ratio=1.0, max_instance_count=128, mask_shape=[28, 28], feature_shapes=[(192, 320), (96, 160), (48, 80), (24, 40), (12, 20)], anchor_scales=[8], anchor_ratios=[0.5, 1.0, 2.0], anchor_strides=[4, 8, 16, 32, 64], num_anchors=3, resnet_block=[3, 4, 6, 3], resnet_in_channels=[64, 256, 512, 1024], resnet_out_channels=[256, 512, 1024, 2048], fpn_in_channels=[256, 512, 1024, 2048], fpn_out_channels=256, fpn_num_outs=5, rpn_in_channels=256, rpn_feat_channels=256, rpn_loss_cls_weight=1.0, rpn_loss_reg_weight=1.0, rpn_cls_out_channels=1, rpn_target_means=[0.0, 0.0, 0.0, 0.0], rpn_target_stds=[1.0, 1.0, 1.0, 1.0], neg_iou_thr=0.3, pos_iou_thr=0.7, min_pos_iou=0.3, num_bboxes=245520, num_gts=128, num_expected_neg=256, num_expected_pos=128, activate_num_classes=256, use_sigmoid_cls=True, roi_layer={'type': 'RoIAlign', 'out_size': 7, 'mask_out_size': 14, 'sample_num': 2}, roi_align_out_channels=256, roi_align_featmap_strides=[4, 8, 16, 32], roi_align_finest_scale=56, roi_sample_num=640, neg_iou_thr_stage2=0.5, pos_iou_thr_stage2=0.5, min_pos_iou_stage2=0.5, num_bboxes_stage2=2000, num_expected_pos_stage2=128, num_expected_neg_stage2=512, num_expected_total_stage2=512, rcnn_num_layers=2, rcnn_in_channels=256, rcnn_fc_out_channels=1024, rcnn_mask_out_channels=256, rcnn_loss_cls_weight=1, rcnn_loss_reg_weight=1, rcnn_loss_mask_fb_weight=1, rcnn_target_means=[0.0, 0.0, 0.0, 0.0], rcnn_target_stds=[0.1, 0.1, 0.2, 0.2], rpn_proposal_nms_across_levels=False, rpn_proposal_nms_pre=2000, rpn_proposal_nms_post=2000, rpn_proposal_max_num=2000, rpn_proposal_nms_thr=0.7, rpn_proposal_min_bbox_size=0, rpn_nms_across_levels=False, rpn_nms_pre=1000, rpn_nms_post=1000, rpn_max_num=1000, rpn_nms_thr=0.7, rpn_min_bbox_min_size=0, test_score_thr=0.05, test_iou_thr=0.5, test_max_per_img=100, test_batch_size=2, rpn_head_use_sigmoid=True, rpn_head_weight=1.0, mask_thr_binary=0.5, base_lr=0.02, base_step=59633, total_epoch=13, warmup_step=500, warmup_ratio=0.3333333333333333, sgd_momentum=0.9, batch_size=2, loss_scale=1, momentum=0.91, weight_decay=0.0001, pretrain_epoch_size=0, epoch_size=7, save_checkpoint=True, save_checkpoint_epochs=1, keep_checkpoint_max=12, save_checkpoint_path='./', mindrecord_dir='./cocodataset/MindRecord_COCO', train_data_type='train2017', val_data_type='val2017', instance_set='annotations/instances_{}.json', data_classes=('background', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow', 'elephant', 'bear', 'zebra', 'giraffe', 'backpack', 'umbrella', 'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball', 'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket', 'bottle', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl', 'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza', 'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'dining table', 'toilet', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone', 'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'), num_classes=81)
+Start Eval!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+
+========================================
+
+total images num:  10
+Processing, please wait a moment.
+Iter 1 cost time 42.01290678977966
+Iter 2 cost time 25.766172885894775
+Iter 3 cost time 24.366978883743286
+Iter 4 cost time 25.039090156555176
+Iter 5 cost time 24.63187575340271
+Iter 6 cost time 21.258153438568115
+Iter 7 cost time 21.521260261535645
+Iter 8 cost time 21.231313467025757
+Iter 9 cost time 21.506215572357178
+Iter 10 cost time 21.198820114135742
+Loading and preparing results...
+DONE (t=0.01s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=0.25s).
+Accumulating evaluation results...
+DONE (t=0.11s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.401
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.606
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.440
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.259
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.592
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.544
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.339
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.486
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.518
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.340
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.647
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.626
+Loading and preparing results...
+DONE (t=0.02s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *segm*
+DONE (t=0.12s).
+Accumulating evaluation results...
+DONE (t=0.11s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.374
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.602
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.411
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.222
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.511
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.531
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.326
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.441
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.450
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.281
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.564
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.570
+ckpt_path= ./checkpoint/maskrcnn_coco2017_acc32.9.ckpt

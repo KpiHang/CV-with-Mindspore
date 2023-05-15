@@ -1,1 +1,8 @@
 /Semantic Segmentation/data/*
+
+/Object Detection/cocodataset
+/Object Detection/ckpt_0
+/Object Detection/checkpoint
+
+
+/Object Detection/*.json
